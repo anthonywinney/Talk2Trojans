@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">310 Final project</string>
+    <string-array name="Schools">
+        <item>Viterbi</item>
+        <item>Dornsife</item>
+        <item>Iovine and Young Academy</item>
+        <item>Leventhal</item>
+        <item>Architecture</item>
+        <item>Roski</item>
+        <item>Marshall</item>
+        <item>SCA</item>
+        <item>Bovard</item>
+        <item>Annenberg</item>
+        <item>Kaufman</item>
+        <item>Herman Ostrow</item>
+        <item>SDA</item>
+        <item>Rossier</item>
+        <item>Leonard Davis</item>
+        <item>Gould</item>
+        <item>Keck</item>
+        <item>Thornton</item>
+        <item>Pharmacy</item>
+        <item>Price</item>
+        <item>Suzanne Dworak-Peck</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

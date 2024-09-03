@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InterestsActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:background="#990000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/appname_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Talk2Trojans"
+            android:textColor="@color/white"
+            android:textSize="32dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="176dp"
+            tools:layout_editor_absoluteY="42dp" />
+
+        <ImageButton
+            android:id="@+id/back_button"
+            android:layout_width="66dp"
+            android:layout_height="59dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="?attr/homeAsUpIndicator"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tint="@color/white" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/interest_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change Interests"
+        android:textColor="@color/black"
+        android:textSize="27dp"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="132dp" />
+
+    <Button
+        android:id="@+id/interest0_button"
+        android:layout_width="166dp"
+        android:layout_height="55dp"
+        android:backgroundTint="#990000"
+        android:text="Sports"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="180dp" />
+    <Button
+        android:id="@+id/interest1_button"
+        android:layout_width="166dp"
+        android:layout_height="55dp"
+        android:backgroundTint="#990000"
+        android:text="Food"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="250dp" />
+    <Button
+        android:id="@+id/interest2_button"
+        android:layout_width="166dp"
+        android:layout_height="55dp"
+        android:backgroundTint="#990000"
+        android:text="Gym"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="320dp" />
+    <Button
+        android:id="@+id/interest3_button"
+        android:layout_width="166dp"
+        android:layout_height="55dp"
+        android:backgroundTint="#990000"
+        android:text="Partying"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="390dp" />
+    <Button
+        android:id="@+id/interest4_button"
+        android:layout_width="166dp"
+        android:layout_height="55dp"
+        android:backgroundTint="#990000"
+        android:text="Programming"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="460dp" />
+    <Button
+        android:id="@+id/interest5_button"
+        android:layout_width="166dp"
+        android:layout_height="55dp"
+        android:backgroundTint="#990000"
+        android:text="Travelling"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="530dp" />
+    <Button
+        android:id="@+id/interest6_button"
+        android:layout_width="166dp"
+        android:layout_height="55dp"
+        android:backgroundTint="#990000"
+        android:text="Movies"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="600dp" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
